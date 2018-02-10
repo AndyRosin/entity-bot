@@ -1,0 +1,22 @@
+[42.002439499] 2017-12-06 22:46:24,091 - INFO - launcher: Starting sanity checks
+[43.002367020] 2017-12-06 22:46:24,092 - INFO - launcher: Checking for python 3.5+
+[43.002367020] 2017-12-06 22:46:24,092 - INFO - launcher: Checking console encoding
+[43.002367020] 2017-12-06 22:46:24,092 - INFO - launcher: Setting console encoding to UTF-8
+[43.002367020] 2017-12-06 22:46:24,092 - INFO - launcher: Ensuring we're in the right folder
+[45.002698898] 2017-12-06 22:46:24,094 - INFO - launcher: Adding local bins/ folder to path
+[46.002626419] 2017-12-06 22:46:24,095 - INFO - launcher: Checks passed.
+[46.002626419] 2017-12-06 22:46:24,095 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[571.032524109] launcher-ERROR: Syntax error (this is a bug, not your fault)
+Traceback (most recent call last):
+  File "run.py", line 344, in main
+    from musicbot import MusicBot
+  File "C:\Users\acer\Desktop\Andy\Discord bots\MusicBot\musicbot\__init__.py", line 74, in <module>
+    from .bot import MusicBot
+  File "C:\Users\acer\Desktop\Andy\Discord bots\MusicBot\musicbot\bot.py", line 165
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+[573.032855988] launcher-INFO: All done.
